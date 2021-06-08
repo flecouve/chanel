@@ -1,0 +1,85 @@
+* {
+  font-family: Arial,sans-serif;
+}
+body {
+  width:960px;
+  margin:0 auto;
+}
+
+/* HEADER */
+nav {
+  background-color: #DADADA;
+  text-align: center;
+  padding: 10px 0px;
+}
+a {
+  text-decoration: none;
+  padding: 10px 30px;
+  color:#323232;
+  font-weight: bold;
+}
+a:hover {
+  color: #DADADA;
+  background-color: #323232;
+}
+
+/* MAIN ACCUEIL*/
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding: 30px 0px;
+  color:#323232;
+}
+p {
+  color:#323232;
+  padding-bottom: 10px;
+  text-indent: 30px;
+  line-height: 1.3em;
+  text-align: justify;
+}
+main img {
+  width: 100px;
+}
+#droite {
+  float: right;
+  padding-left: 10px;
+}
+#gauche {
+  float: left;
+  padding-right: 10px;
+}
+/* MODE */
+.mode_parfum {
+  text-align: center;
+}
+.mode_parfum img {
+  width: 300px;
+  padding: 7px;
+}
+/* CONTACT */
+form {
+  width: 300px;
+  margin: 0 auto;
+}
+form div {
+  padding:10px;
+}
+form label {
+  text-align: right;
+}
+
+/* FOOTER */
+footer {
+  background-color: #DADADA;
+  padding-top: 20px;
+  text-align: center;
+}
+footer img {
+  width: 30px;
+  padding: 0px 30px;
+}
+footer p {
+  text-align: center;
+  padding-top: 10px;
+}
